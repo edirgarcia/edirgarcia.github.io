@@ -429,6 +429,17 @@ h6,
     transition: .5s;
 }
 
+#speaking .portfolio-item .position-relative {
+    height: 220px;
+}
+
+#speaking .portfolio-item .position-relative > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .portfolio-item:hover img {
     transform: scale(1.1);
 }
@@ -449,6 +460,28 @@ h6,
 
 .portfolio-item:hover .portfolio-overlay {
     opacity: 1;
+}
+
+#writing .row.g-4 > div {
+    display: flex;
+}
+
+#writing .service-item {
+    flex: 1;
+}
+
+#speaking .portfolio-container > div {
+    display: flex;
+}
+
+#speaking .portfolio-container > div > .rounded {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#speaking .portfolio-container .bg-light {
+    flex: 1;
 }
 
 
